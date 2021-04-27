@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subiendo imagenes con Node</title>
+    <link rel="stylesheet" href="/bootstrap 4.6/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-md-6 card bg-dark p-0">
+                <div class="card-header text-white text-center">
+                    <h3>Subiendo imagenes con node</h3>
+                </div>
+                <div class="card-body bg-light">
+                    <form action="/upload" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input type="file" name="image">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-block btn-info" type="submit">Upload</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="/js/Jquery.js"></script>
+        <script src="/bootstrap 4.6/bootstrap.bundle.min.js"></script>
+        <script src="/js/main.js"></script>
+    </footer>
+</body>
+</html>
